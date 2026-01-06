@@ -1,0 +1,20 @@
+# Build and distribution
+/build/
+/dist/
+/nbproject/private/
+/build.xml~
+
+# Compiled class files
+*.class
+
+# JARs and libraries (recommended to remove connector jar from VCS)
+*.jar
+mysql-connector-j-*.jar
+
+# IDE files
+*.log
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
