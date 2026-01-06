@@ -1,13 +1,13 @@
-﻿# OOP Orb
+﻿# Orb
 
-A small Java Swing application (NetBeans project) for user registration, administration, and simple PDF management.
+A small Java Swing application (NetBeans project) for simple notes PDF management.
 
 ## Features
 
 - User registration and sign-in (Swing forms)
-- Admin and VIP management screens
+- Admin, VIP, and User management screens
 - PDF export utilities (partial)
-- MySQL backend via JDBC
+- MySQL backend via JDBC and MariaDB
 
 ## Tech Stack
 
@@ -56,7 +56,7 @@ The default connection in `DBConnect.java` targets a MySQL database named `OrbRe
 ## Pushing to GitHub (PowerShell)
 
 ```powershell
-cd "c:\\Users\\Charles\\OneDrive\\Desktop\\OOP Orb"
+cd "<path-to-your-project-directory>"
 git add .
 git commit -m "Project documentation and initial import"
 # Replace with your repo URL if you haven't already set origin
@@ -65,12 +65,6 @@ git branch -M main
 git push -u origin main
 ```
 
-## License
-
-Add a `LICENSE` file as desired. If you want, I can add an MIT license for you.
-
 ## Where I changed things
 
 - Added a concise `README.md` and a `docs/DEVELOPER.md` with setup notes.
-
-If you'd like a different style or more details (screenshots, usage examples), tell me what you prefer and I will update this file.
